@@ -131,9 +131,7 @@
                 <button type="submit">Subscribe</button>
             </form>
 
-            <p>
-               Discover destinations. Create memories. Travel smart.
-            </p>
+            
         </div>
 
         <div class="right-image">
