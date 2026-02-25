@@ -35,6 +35,19 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
+| Suppress Deprecation Warnings
+|--------------------------------------------------------------------------
+|
+| Laravel 8.x with PHP 8.1+ generates deprecation warnings about implicit
+| nullable parameters. These will become errors in PHP 9.0, but until then
+| we suppress them to keep the application running cleanly.
+|
+*/
+
+error_reporting(E_ALL & ~E_DEPRECATED);
+
+/*
+|--------------------------------------------------------------------------
 | Run The Application
 |--------------------------------------------------------------------------
 |
